@@ -1,10 +1,9 @@
-pragma solidity ^0.4.22;
+pragma solidity ^0.5.0;
 
 contract Castle {
   address public nightWatch;
   address public king; 
   uint precept;
-  bytes4 constant recipient = bytes4(keccak256("messageToWatch(uint256)"));
 
   constructor(address nightWatchAddress) public {
     nightWatch = nightWatchAddress; 
@@ -12,6 +11,6 @@ contract Castle {
   }
  
   function messageToWatch(uint256 _precept) public {
-    nightWatch.delegatecall(recipient, abi.encode(_precept));
+    nightWatch.delegatecall(abi.encodePacked(bytes4(keccak256("messageToWatch(uint256)")), _precept));
   }
 }
