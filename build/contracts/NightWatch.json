@@ -13,7 +13,8 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0x66fcedc4"
     },
     {
       "constant": false,
@@ -27,7 +28,8 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function"
+      "type": "function",
+      "signature": "0x2a69bf7c"
     }
   ],
   "bytecode": "0x608060405234801561001057600080fd5b5060e98061001f6000396000f3fe6080604052600436106049576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632a69bf7c14604e57806366fcedc4146085575b600080fd5b348015605957600080fd5b50608360048036036020811015606e57600080fd5b810190808035906020019092919050505060ad565b005b348015609057600080fd5b50609760b7565b6040518082815260200191505060405180910390f35b8060008190555050565b6000548156fea165627a7a723058206ca4391722f7f086639416e28c04870a91d463cbf0b6e5c8ab10e542262347a40029",
@@ -390,12 +392,12 @@
     "3": {
       "events": {},
       "links": {},
-      "address": "0x90dE78875906d8A8528d53E3DA1e918FF5768BaE",
-      "transactionHash": "0xf890581a22407fcbd6d06186b607954008bde5dc36d8842713c65e0dc0464143"
+      "address": "0x49683ce5fBdE59E12337EebE0deebd5422d051C0",
+      "transactionHash": "0x89f512aac7310613d11e34f8b1e21c7bd196ef0b8ca449bed6a3b0d3accdc83a"
     }
   },
   "schemaVersion": "3.0.2",
-  "updatedAt": "2019-03-04T06:25:09.376Z",
+  "updatedAt": "2019-03-04T06:27:44.646Z",
   "devdoc": {
     "methods": {}
   },
