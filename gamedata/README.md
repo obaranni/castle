@@ -1,6 +1,6 @@
 # Running contracts
-- git clone
-- cd cloned
+- git clone https://xteams-gitlab.unit.ua/xteams/module-6-obaranni.git
+- cd module-6-obaranni
 - npm install --save truffle-hdwallet-provider
 - truffle deploy --network ropsten
 - truffle console --network ropsten
